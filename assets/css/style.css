@@ -1,0 +1,101 @@
+
+section {
+}
+
+header{
+	background-color: #fff;
+    border-bottom: 1px solid #999;
+    height: 80px;
+    width:960px;
+}
+
+
+#header{
+	background-color: #fff;
+    border-bottom: 1px solid #999;
+    height: 80px;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#name {
+	background-color:#4aaaa5;
+	color:#fff;
+}
+
+nav {
+	background-color:#fff;
+	margin-top:30px;
+	float:right;
+	vertical-align: baseline;
+	color: #ccc;
+    text-align: center;
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.body{
+	background-color:green;
+    width: 100%;
+    display: inline-block;
+    padding: 30px;
+    overflow: scroll;
+    height: 100%;
+    background-image:url(../images/light-veneer.png);
+}
+
+#content{
+	width:960px;
+	background:#ffffff;
+	border:2px;
+	border-color:#dddddd:
+
+}
+
+#aboutme img{
+	float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#aboutme{
+	width:650px;
+	background:gray;
+	font-family:serif;
+	font-size:20px;
+	letter-spacing:1px;
+}
+
+h2 {
+	font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    color: #4aaaa5;
+}
+
+#sidebar{
+	width:270px;
+	color:#fff;
+	float:right;
+}
+
+#sidebar img{
+	width:48px;
+	vertical-align:baseline;
+}
+
+#footer{
+	text-align: center;
+	background-color: #666;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    font-family: sans-serif;
+    position: fixed;
+    bottom: 0;
+    border-top:5px;
+    border-color:#4aaaa5;
+ }
