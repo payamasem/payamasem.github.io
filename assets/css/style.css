@@ -87,15 +87,15 @@ h2 {
 }
 
 #footer{
-	text-align: center;
-	background-color: #666;
+    background-color: #666;
     color: #fff;
     height: 50px;
     width: 100%;
+    clear: both;
+    text-align: center;
     padding: 20px;
     font-family: sans-serif;
-    position: fixed;
-    bottom: 0;
-    border-top:5px;
-    border-color:#4aaaa5;
+    position: bottom;
+    border-top: 5px solid #4aaaa5;
+    bottom:0;
  }
