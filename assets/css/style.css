@@ -5,26 +5,19 @@ section {
 header{
 	background-color: #fff;
     border-bottom: 1px solid #999;
-    height: 80px;
+    height: 70px;
     width:960px;
 }
 
-
-#header{
+.header{
 	background-color: #fff;
     border-bottom: 1px solid #999;
     height: 80px;
     font-size: 40px;
-    color: #fff;
-    text-decoration: none;
+    color: #ffff
 }
 
-#name {
-	background-color:#4aaaa5;
-	color:#fff;
-}
-
-nav {
+nav li a {
 	background-color:#fff;
 	margin-top:30px;
 	float:right;
@@ -34,6 +27,24 @@ nav {
     padding: 0 10px;
     border-right: 1px solid #ccc;
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+    display: block;
+    padding: 8px;
+    background-color: #fff;
+}
+
+#name {
+	background-color:#4aaaa5;
+	color:#fff;
 }
 
 .body{
